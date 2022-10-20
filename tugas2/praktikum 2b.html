@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulir Service Motor</title>
+
+        <style>
+            body {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form action="form_service.html" method="get">
+            Nama : <input type="text" name="name" value="nama anda">
+            <br>
+            Jenis Kelamin : 
+            <input type="radio" name="jenis_kelamin" value="laki-laki" checked>
+            laki-laki
+            <input type="radio" name="jenis_kelamin" value="perempuan">
+            perempuan
+            <br>
+            Keperluan : <input type="checkbox" name="Bore_up"> Bore Up
+            <input type="checkbox" name="Rapid_Service" checked> Rapid Service
+            <input type="checkbox" name="Full_Service"> Full Service
+            <br>
+
+            Jenis Motor :
+                <select name="jenis">
+                    <option value="jenis_motor">Matic</option>
+                    <option>Manual</option>
+                    <option>Sport</option>
+                </select>
+            <br>
+
+            Plat Nomor :
+                <textarea name="keperluan" rows="5" cols="20">
+                Masukkan plat nomor anda
+                </textarea>
+                <br>
+                <input type="submit" value="Mulai Proses!">
+        </form>
+    </body>
+
+</html>

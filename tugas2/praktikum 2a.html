@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulir Perpustakaan</title>
+
+        <style>
+            body {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form action="form_perpus.html" method="get">
+            Nama : <input type="text" name="name" value="nama anda">
+            <br>
+            Jenis Kelamin : 
+            <input type="radio" name="jenis_kelamin" value="laki-laki" checked>
+            laki-laki
+            <input type="radio" name="jenis_kelamin" value="perempuan">
+            perempuan
+            <br>
+            Buku yang dipinjam : <input type="checkbox" name="Kamus"> Kamus
+            <input type="checkbox" name="Ensiklopedia" checked> Ensiklopedia
+            <input type="checkbox" name="RPUL"> RPUL
+            <br>
+
+            Durasi Peminjaman :
+                <select name="durasi">
+                    <option value="lama_waktu">1 hari</option>
+                    <option>2 hari</option>
+                    <option>3 hari</option>
+                </select>
+            <br>
+
+            Keperluan :
+                <textarea name="keperluan" rows="5" cols="20">
+                Masukkan keperluan peminjaman
+                </textarea>
+                <br>
+                <input type="submit" value="Mulai Proses!">
+        </form>
+    </body>
+
+</html>

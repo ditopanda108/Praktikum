@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulir Pariwisata</title>
+
+        <style>
+            body {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form action="form_service.html" method="get">
+            Nama : <input type="text" name="name" value="nama anda">
+            <br>
+            Jenis Kelamin : 
+            <input type="radio" name="jenis_kelamin" value="laki-laki" checked>
+            laki-laki
+            <input type="radio" name="jenis_kelamin" value="perempuan">
+            perempuan
+            <br>
+            Daftar Wisata : <input type="checkbox" name="pegunungan"> Pegunungan
+            <input type="checkbox" name="pantai" checked> Pantai
+            <input type="checkbox" name="kebun_binatang"> Kebun Binatang
+            <br>
+
+            Kota yang ingin dikunjungi :
+                <select name="kota">
+                    <option value="kota_tujuan">Lombok</option>
+                    <option>Bali</option>
+                    <option>Pacitan</option>
+                </select>
+            <br>
+
+            By Request :
+                <textarea name="keperluan" rows="5" cols="20">
+                Masukkan request yang diinginkan
+                </textarea>
+                <br>
+                <input type="submit" value="Mulai Proses!">
+        </form>
+    </body>
+
+</html>

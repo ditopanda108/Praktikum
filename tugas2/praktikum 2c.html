@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulir Klinik Sehat</title>
+
+        <style>
+            body {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <form action="form_klinik.html" method="get">
+            Nama : <input type="text" name="name" value="nama anda">
+            <br>
+            Jenis Kelamin : 
+            <input type="radio" name="jenis_kelamin" value="laki-laki" checked>
+            laki-laki
+            <input type="radio" name="jenis_kelamin" value="perempuan">
+            perempuan
+            <br>
+            Fasilitas : <input type="checkbox" name="Poliklinik_Penyakit_Dalam"> Poliklinik Penyakit Dalam 
+            <input type="checkbox" name="Poliklinik_Bedah" checked> Poliklinik Bedah
+            <input type="checkbox" name="Poliklinik_Gigi"> Poliklinik Gigi
+            <br>
+
+            Metode Pembelajaran :
+                <select name="metode">
+                    <option value="metode_pembayaran">BPJS</option>
+                    <option>Cash</option>
+                    <option>Cashless</option>
+                </select>
+            <br>
+
+            Keluhan :
+                <textarea name="keluhan" rows="5" cols="20">
+                Masukkan keluhan anda
+                </textarea>
+                <br>
+                <input type="submit" value="Mulai Proses!">
+        </form>
+    </body>
+
+</html>
